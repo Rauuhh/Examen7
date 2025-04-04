@@ -12,9 +12,9 @@ public class AppExcursiones {
         terra_mitica.inscribirAsistente();
         terra_mitica.inscribirAsistente();
         terra_mitica.inscribirAsistente();
-        terra_mitica.inscribirAsistente()
+        terra_mitica.inscribirAsistente();
         terra_mitica.verAsistentes();
-        terra_mitica.eliminarAsistentesPorEdad(16);
+//        terra_mitica.eliminarAsistentesPorEdad(16);
         System.out.println("Después de eliminar a los menores de 16 años: ");
         terra_mitica.verAsistentes();
         System.out.println("Importe a ingresar para la actividad " + terra_mitica.getNombre_actividad() + " en " + terra_mitica.getLocalidad() + ": " + terra_mitica.calcularImporteIngreso() + " €.");
