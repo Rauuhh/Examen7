@@ -6,8 +6,6 @@ import java.util.Scanner;
 public class Estudiante {
 
     static Scanner entrada = new Scanner(System.in);
-
-
     private String apellidos;
     private String nombre;
     private String curso;
@@ -59,7 +57,7 @@ public class Estudiante {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Estudiante estudiante = (Estudiante) o;
-        return Objects.equals(nombre, estudiante.nombre);
+        return Objects.equals(apellidos,estudiante.apellidos) && Objects.equals(nombre, estudiante.nombre)  && Objects.equals(curso,estudiante.curso);
     }
 
     @Override
